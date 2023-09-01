@@ -3,7 +3,6 @@ import { Link, Outlet, useNavigate } from "react-router-dom";
 import { FlexColumn, FlexRow } from "../shared/Flex";
 import { DashboardContext } from "../../contexts/DashboardContext";
 import { StyledLink } from "../shared/Link";
-import { PostsList } from "./components/posts/PostsList";
 
 export const Dashboard = () => {
   const { user } = useContext(DashboardContext)!;
